@@ -1,13 +1,5 @@
-# Cloud Composer Samples
+# Composer CI/CD Sample
 
-All code in this directory is samples or tooling related to [Cloud Composer](https://cloud.google.com/composer). 
+Code in this directory is part of a tutorial found [in the Cloud docs](https://cloud.google.com/composer/docs/dag-cicd-integration-guide). In this tutorial, you will learn how to use Cloud Build to sync DAGs from version control with your Cloud Composer environment.
 
-* [`2022_airflow_summit`](/composer/2022_airflow_summit) - contains sample code prepared for [Airflow Summit 2022 workshop](https://airflowsummit.org/sessions/2022/cloud-composer-workshop/)
-* [`airflow_1_samples`](/composer/airflow_1_samples) - contains DAGs compatible with Airflow 1 Composer environments. More usage examples can be found in the [Composer documentation](https://cloud.google.com/composer/docs) and [standalone samples](https://cloud.google.com/composer/docs/samples)
-* [`blog`](/composer/blog) - contains sample code used in blog posts pertaining to Cloud Composer
-* [`cicd_sample`](/composer/cicd_sample) - contains a [sample for using Cloud Build to test and sync DAGs](https://cloud.google.com/composer/docs/dag-cicd-integration-guide)
-* [`dag_test_utils`](/composer/dag_test_utils) - is a package used internally by repo maintainers
-* [`functions`](/composer/functions) - contains samples that use Cloud Functions to trigger DAGs
-* [`rest`](/composer/rest) - contains samples used in the documentation that interact with the Cloud Composer REST API
-* [`tools`](/composer/tools) - contains utilities for Cloud Composer users to manage their environments. Each utility has a corresponding README.
-* [`workflows`](/composer/workflows) - contains DAGs compatible with Airflow 2 Composer environments. More usage examples can be found in the [Composer documentation](https://cloud.google.com/composer/docs) and [standalone samples](https://cloud.google.com/composer/docs/samples)
+While the DAGs found in this tutorial specifically are written for use in Airflow 2, this tutorial can be used in Airflow 1, Airflow 2, Composer 1, and Composer 2 environments.
