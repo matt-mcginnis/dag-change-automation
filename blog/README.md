@@ -1,10 +1,6 @@
-# Blog Sample Code
+# Cloud Composer Blog Posts
 
-[![Open in Cloud Shell][shell_img]][shell_link]
+Beginning in 2021, any code samples written by Cloud Composer DevRel and featured in blog posts are found in this repo.
 
-[shell_img]: http://gstatic.com/cloudssh/images/open-btn.png
-[shell_link]: https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/GoogleCloudPlatform/python-docs-samples&page=editor&open_in_editor=blog/README.md
-
-This directory contains samples used in the
-[Cloud Platform Blog](http://cloud.google.com/blog). Each sample should have a
-readme with instructions and a link to its respective blog post.
+1. [Using Cloud Build to keep Airflow Operators up-to-date in your Composer environment](https://cloud.google.com/blog/topics/developers-practitioners/using-cloud-build-keep-airflow-operators-date-your-composer-environment) - [code](/composer/blog/gcp-tech-blog/unit-test-dags-cloud-build) - March 2021
+2. [Orchestrating your data workloads in Google Cloud](https://cloud.google.com/blog/topics/developers-practitioners/orchestrating-your-data-workloads-google-cloud) - [code](/composer/blog/gcp-tech-blog/data-orchestration-with-composer) - June 2021
